@@ -50,3 +50,8 @@
   height: 34px;
   background: grey;
 }
+
+.img-preview {
+  max-width:400px;
+  width:100%
+}
