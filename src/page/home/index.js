@@ -16,6 +16,8 @@ const Home = () => {
             headers: {
                 access_token: `${localStorage.getItem("ACCESS_TOKEN")}`
             }
+        }).then(result=>{
+            console.log(result);
         })
     }, [])
 
